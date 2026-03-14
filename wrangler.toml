@@ -1,0 +1,19 @@
+name = "forward-widget-hub"
+main = ".open-next/worker.js"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next/assets"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "forward-widget-hub-db"
+database_id = "7de259dd-9e90-463c-b563-88287b3b74b6"
+
+[[r2_buckets]]
+binding = "STORAGE"
+bucket_name = "forward-widget-hub-storage"
+
+[vars]
+BACKEND = "cloudflare"
